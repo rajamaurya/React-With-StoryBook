@@ -8,8 +8,14 @@ In the project directory, you can run:
 
 ### `npm start`
 
+### `npm run storybook`
+
+<img width="781" alt="image" src="https://github.com/rajamaurya/React-With-StoryBook/assets/23061771/3b832d86-4607-43d6-a9e6-2055e27db280">
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Open [http://localhost:6006](http://localhost:6006) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
