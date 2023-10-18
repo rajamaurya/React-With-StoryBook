@@ -1,0 +1,15 @@
+.container {
+  padding: 6px;
+  display: inline-block;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.first-class {
+  background-color: steelblue;
+  cursor: pointer;
+}
+.second-class {
+  background-color: white;
+  cursor: pointer;
+}
