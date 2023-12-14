@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
-
-const Counter = () => {
+import PropTypes from "prop-types";
+const Counter = ({ label, type, color }) => {
   const [counter, setCounter] = useState(0);
   const increaseCounter = () => {
     setCounter((prev) => prev + 1);
@@ -29,5 +29,9 @@ const Counter = () => {
       </div>
     </>
   );
+};
+
+Counter.propTypes = {
+  color: PropTypes.string,
 };
 export default Counter;
